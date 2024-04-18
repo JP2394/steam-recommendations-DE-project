@@ -62,7 +62,7 @@ cd into `setup` to execute the setup_vm.sh script:
  ```
 - run the executable to install all the neccesary components for the vm.
  ```
- ./setup.vm.sh
+ ./setup_vm.sh
  ```
 
 ## 6 - Deploy resources with terraform
