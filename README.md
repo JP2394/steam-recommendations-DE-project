@@ -17,7 +17,7 @@ The objective of this project is to harness advanced data engineering techniques
 * What is the average playtime of a game?
 * Which game was the most popular over a certain timespan?
 * Which game is the most/least recommended on the platform?
-* Which game has the most helpful/funny reviews? Which game has the most 
+* Which game has the most helpful/funny reviews? 
 * What is the average ratio between the number of purchased games and posted reviews?
 
 
