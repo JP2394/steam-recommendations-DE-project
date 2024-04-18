@@ -86,8 +86,8 @@ Go to kaggle page:
 * On the api section generate a token to use it on the .env file inside the airflow-dev
 * The token will allow airflow to download the dataset from kaggle
 ```
-     ENV KAGGLE_USERNAME= <the username of the token>
-     ENV KAGGLE_KEY= <key of the token>
+     KAGGLE_USERNAME= <the username of the token>
+     KAGGLE_KEY= <key of the token>
    ```
 
 ## 8 - Initialize (Astronomer) apache airflow
