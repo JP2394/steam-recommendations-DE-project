@@ -48,7 +48,7 @@ Perform de authentication:
 
 ## 5 - Clone repo in vm instance.
    ```
-     git clone steam-Recommendations-DE-project.git
+     git clone https://github.com/JP2394/steam-recommendations-DE-project.git
    ```
    ```
      cd steam-recommendations-DE-project
