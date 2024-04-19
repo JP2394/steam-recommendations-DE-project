@@ -26,7 +26,7 @@
 ![airflow parquet_to_bigquery](../assets/airflow/4_parquet_to_bigquery.png)
 
 **5_dbt_run:**
-* This DAG orchestrates the execution of a DBT model operating on BigQuery
+* This DAG orchestrates the execution of a DBT model operating on BigQuery to create the final table `summary_steam_recommendations` for the dashboard
 
 ![airflow dbt run](../assets/airflow/5_dbt_run.png)
 
