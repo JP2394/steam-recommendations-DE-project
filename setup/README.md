@@ -101,7 +101,7 @@ Go to kaggle page:
 * Set the username of the virtual machine on the docker-compose.override file:
 ```
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
-    - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
+    - /home/<your username>/steam-recommendations-DE-project/dbt:/usr/local/airflow/dbt:ro  
    ```
 Your can use the following command to know the username on linux:
 ```
