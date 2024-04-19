@@ -5,7 +5,7 @@ Welcome to the Game Recommendations on Steam Project repository! This project us
 
 ![alt text](https://github.com/JP2394/steam-recommendations-DE-project/blob/main/assets/architecture/architecture.gif)
 
-# Problem 
+# Problem Statement
 The analysis of game recommendations data on the Steam platform has been hindered by the difficulty in handling large volumes of information in the past. The lack of robust data engineering practices has made it challenging to make informed decisions about which games should be promoted more based on their popularity and user preferences 
 
 # Main objective
