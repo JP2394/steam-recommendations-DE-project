@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-data-steam-recommendations
+     # For postgres:
+      #database: production
+    schema: steam_data
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: games
+      - name: users
+      - name: recommendations 
+         # freshness:
+           # error_after: {count: 6, period: hour}
