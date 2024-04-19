@@ -4,7 +4,7 @@ from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
 from cosmos.profiles import GoogleCloudServiceAccountFileProfileMapping
 
 BQ_PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
-DBT_DATASET = "dw_dbt"
+DBT_DATASET = "dbt_prod"
 
 profile_config = ProfileConfig(
     profile_name="data_pipeline",
