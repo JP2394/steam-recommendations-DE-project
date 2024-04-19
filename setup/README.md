@@ -102,7 +102,7 @@ Go to kaggle page:
 ```
      astro dev start
    ```
-Edit the docker-compose.override and set the username on the path
+Edit the docker-compose.override and set your username on the path
 ```
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
         - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
