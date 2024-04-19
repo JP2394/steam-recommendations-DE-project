@@ -94,13 +94,23 @@ Go to kaggle page:
 ```
      cd airflow-dev
    ```
-rename the astro folder inside the airflow-dev folder to .astro:
+ *  rename the astro folder inside the airflow-dev folder to .astro:
 ```
       mv astro .astro
    ```
 
 ```
      astro dev start
+   ```
+Edit the docker-compose.override and set the username on the path
+```
+    - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
+        - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
+   ```
+your can user the following command to know the username on linux:
+```
+     whoami
+    
    ```
      
 Now Airflow running on 8080 port, so can forward it and open in browser at localhost:8080.
