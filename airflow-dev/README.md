@@ -20,7 +20,7 @@
 ![airflow pyspark_submit_process](../assets/airflow/3_pyspark_submit_process.png)
 
 **4_parquet_to_bigquery:**
-* This dag ingest all the parquet files to bigquery for each dataset (games,recommendations,users)
+* This dag ingest all the parquet files to bigquery for each dataset  `(games,recommendations,users)`
 ![airflow parquet_to_bigquery](../assets/airflow/4_parquet_to_bigquery.png)
 
 **5_dbt_run:**
