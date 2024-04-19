@@ -2,7 +2,7 @@ version: "3.1"
 services:
     scheduler:
         volumes:
-        - /home/steam_project/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
-        - /home/steam_project/steam-recommendations-DE-project/dbt:/usr/local/airflow/dbt:ro  
+        - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
+        - /home/<your username>/steam-recommendations-DE-project/dbt:/usr/local/airflow/dbt:ro  
         
 
