@@ -60,7 +60,7 @@ cd into `setup` to execute the setup_vm.sh script:
  ```
    chmod +x setup_vm.sh
  ```
-- run the executable to install all the neccesary components for the vm.
+- Run the executable to install all the necessary components for the vm
  ```
  ./setup_vm.sh
  ```
