@@ -80,6 +80,7 @@ Go to the setup readme [here](/setup/README.md).
 
 
 ## Dashboard
+![dashboard](../assets/dashboard/steam_recommendations_dashboard.png)
 You can view the dashboard [here](https://lookerstudio.google.com/reporting/3ebc5e6e-5560-4cf6-98da-87e67b9a324a).
 
 ## _Contributing & Support_
