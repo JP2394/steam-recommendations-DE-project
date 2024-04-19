@@ -25,5 +25,6 @@ This dag ingest all the parquet files to bigquery for each dataset (games,recomm
 
 **5_dbt_run:**
 This DAG orchestrates the execution of a DBT model operating on BigQuery
+
 ![airflow dbt run](../assets/airflow/5_dbt_run.png)
 
