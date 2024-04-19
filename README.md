@@ -83,5 +83,4 @@ Go to the setup readme [here](/setup/README.md).
 You can view the dashboard [here](https://lookerstudio.google.com/reporting/2ccdf5bd-655e-4f15-9229-0dc7f072f6cb).
 
 ## _Contributing & Support_
-To be a part of this project's growth, whether by reporting issues, submitting pull requests, or contributing in any way, reach out to me through GitHub.
-
+To be a part of this project's growth, whether by reporting issues, submitting pull requests, or contributing in any way, reach out to me through this platform.
