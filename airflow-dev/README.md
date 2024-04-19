@@ -13,7 +13,7 @@
 ![airflow kaggle_to_gcs](../assets/airflow/2_kaggle_to_gcs.png)
 
 **3_pyspark_submit_process:**
-* This dag is responsible of ingest the pyspark_transform.py to the bucket script folder
+* This dag is responsible of ingest the pyspark_transform.py to `(dtc_data_lake_steam/script)`
 * Create a Dataproc cluster to process the data
 * submit the job on the cluster running the pyspark script from  `(dtc_data_lake_steam/script)`
 * Delete the cluster after the pyspark tranformation is done `(dtc_data_lake_steam/processed)`
