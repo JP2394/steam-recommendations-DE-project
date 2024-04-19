@@ -94,20 +94,20 @@ Go to kaggle page:
 ```
      cd airflow-dev
    ```
- *  rename the astro folder inside the airflow-dev folder to .astro:
+ *  Rename the astro folder inside the airflow-dev folder to .astro:
 ```
       mv astro .astro
    ```
-set the username of the virtual machine on the docker-compose.override file:
+* Set the username of the virtual machine on the docker-compose.override file:
 ```
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
     - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
    ```
-your can user the following command to know the username on linux:
+Your can user the following command to know the username on linux:
 ```
      whoami
    ```
- * initialize apache airflow containers
+ * Initialize apache airflow containers
 ```
      astro dev start
    ```
