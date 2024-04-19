@@ -123,5 +123,5 @@ master will run the following dags automatically:
 *   `4_parquet_to_bigquery`
 *   `5_dbt_run`
 
-For more detailed information on the processes in Apache Airflow, click [here](https://github.com/technomonah/CSSE_data_de/blob/main/prereqs-setup.md).
+For more detailed information on the processes in Apache Airflow, click [here](https://github.com/JP2394/steam-recommendations-DE-project/blob/5d2fa6fd201f8f54e23f4436f6f50de4ecbe012e/airflow-dev/README.md).
 
