@@ -1,5 +1,5 @@
 # Game Recommendations on Steam Project
-Welcome to the Game Recommendations on Steam Project repository! This project uses advanced data engineering methods and cloud technologies to analyze game recommendations on Steam.
+Welcome to the Game Recommendations on Steam Project repository! This project uses advanced data engineering methods and cloud technologies to analyze game recommendations on Steam
 
 # Architecture Diagram
 
@@ -81,3 +81,7 @@ Go to the setup readme [here](/setup/README.md).
 
 ## Dashboard
 You can view the dashboard [here](https://lookerstudio.google.com/reporting/2ccdf5bd-655e-4f15-9229-0dc7f072f6cb).
+
+## _Contributing & Support_
+To be a part of this project's growth, whether by reporting issues, submitting pull requests, or contributing in any way, reach out to me through GitHub.
+
