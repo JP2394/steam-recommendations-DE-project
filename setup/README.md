@@ -103,7 +103,7 @@ Go to kaggle page:
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
     - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
    ```
-Your can user the following command to know the username on linux:
+Your can use the following command to know the username on linux:
 ```
      whoami
    ```
