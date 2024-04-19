@@ -110,7 +110,6 @@ set the username of the virtual machine on the docker-compose.override file:
 your can user the following command to know the username on linux:
 ```
      whoami
-    
    ```
      
 Now Airflow running on 8080 port, so can forward it and open in browser at localhost:8080.
