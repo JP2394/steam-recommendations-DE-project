@@ -1,6 +1,8 @@
 ## ¿ Why Apache Airflow as orchestrator ? 
 `Apache Airflow` streamlines workflow orchestration with scalable DAGs, ensuring efficient task coordination and dependency management. Its extensibility supports seamless integration with diverse data sources and systems. The platform offers robust monitoring, alerting, and version control, empowering data engineers to automate workflows effectively. With a vibrant community and extensive ecosystem, Airflow stands as a top choice for managing data pipelines and optimizing data processing workflows.
 
+![airflow dags](../assets/airflow/dags.png)
+
 ## Definition of each dag of the project 
 
 **1_dag_master:**
