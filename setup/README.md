@@ -113,7 +113,8 @@ Go to kaggle page:
 
      
 Now Airflow running on 8080 port, so can forward it and open in browser at localhost:8080.
-
+   `Airflow default user:` admin
+   `Airflow default password:` admin
    `Trigger the following Dag manually from Airflow's UI.:` 1_dag_master
 
 master will run the following dags automatically:
