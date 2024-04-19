@@ -98,10 +98,6 @@ Go to kaggle page:
 ```
       mv astro .astro
    ```
-
-```
-     astro dev start
-   ```
 set the username of the virtual machine on the docker-compose.override file:
 ```
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
@@ -111,6 +107,11 @@ your can user the following command to know the username on linux:
 ```
      whoami
    ```
+ * initialize apache airflow containers
+```
+     astro dev start
+   ```
+
      
 Now Airflow running on 8080 port, so can forward it and open in browser at localhost:8080.
 
