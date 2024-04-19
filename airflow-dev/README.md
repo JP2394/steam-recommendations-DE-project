@@ -16,7 +16,7 @@
 
 **3_pyspark_submit_process:**
 * This dag is responsible of ingest the pyspark_transform.py to `(dtc_data_lake_steam/script)`
-* Create a Dataproc cluster to process the data
+* Create a Dataproc cluster to transform the data using parallel processing
 * Submit the job on the cluster running the pyspark script from  `(dtc_data_lake_steam/script)`
 * Delete the cluster after the pyspark tranformation is done `(dtc_data_lake_steam/processed)`
 ![airflow pyspark_submit_process](../assets/airflow/3_pyspark_submit_process.png)
