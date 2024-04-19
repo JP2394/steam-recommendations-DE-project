@@ -5,7 +5,7 @@ Apache Airflow streamlines workflow orchestration with scalable DAGs, ensuring e
 
 **1_dag_master:**
 The master DAG assumes the pivotal role of triggering all subsequent DAGs, reflecting our commitment as data engineers to automate manual processes across various stages of the data project lifecycle. The creation of this master DAG underscores our strategic approach to orchestrate seamless automation, ensuring efficiency and reliability throughout our data engineering workflows.
-![apache airflow](../assets/apache airflow/1_dag_master)
+![apache airflow](../assets/apache airflow/1_dag_master.png)
 
 **2_kaggle_to_gcs:**
 This DAG ingest the datasets from kaggle to the bucket 
