@@ -102,7 +102,7 @@ Go to kaggle page:
 ```
      astro dev start
    ```
-set your username on the docker-compose.override file:
+set the username of the virtual machine on the docker-compose.override file:
 ```
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
     - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
