@@ -10,20 +10,20 @@ The master DAG assumes the pivotal role of triggering all subsequent DAGs, refle
 **2_kaggle_to_gcs:**
 This DAG ingest the datasets from kaggle to the bucket 
 At the end of this process we should have 3 csv files (raw folder)
-![airflow kaggle_to_gcs ](../assets/airflow/2_kaggle_to_gcs)
+![airflow kaggle_to_gcs](../assets/airflow/2_kaggle_to_gcs.png)
 
 **3_pyspark_submit_process:**
 * This dag is responsible of ingest the pyspark_transform.py to the bucket script folder
 * Create a Dataproc cluster to process large volumes of data 
 * submit the job on the cluster running the pyspark script from (dtc_data_lake_steam/script) 
 * Delete the cluster after the pyspark tranformation is done (dtc_data_lake_steam/processed)
-![airflow pyspark_submit_process](../assets/airflow/3_pyspark_submit_process)
+![airflow pyspark_submit_process](../assets/airflow/3_pyspark_submit_process.png)
 
 **4_parquet_to_bigquery:**
 This dag ingest all the parquet files to bigquery for each dataset (games,recommendations,users)
-![airflow parquet_to_bigquery](../assets/apache airflow/4_parquet_to_bigquery)
+![airflow parquet_to_bigquery](../assets/airflow/4_parquet_to_bigquery.png)
 
 **5_dbt_run:**
 This DAG orchestrates the execution of a DBT model operating on BigQuery
-![airflow dbt run](../assets/airflow/5_dbt_run)
+![airflow dbt run](../assets/airflow/5_dbt_run.png)
 
