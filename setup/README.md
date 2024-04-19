@@ -105,7 +105,7 @@ Go to kaggle page:
 set your username on the docker-compose.override file:
 ```
     - /home/<your username>/.google/credentials/google_credentials.json:/usr/local/airflow/.google/credentials/google_credentials.json:ro
-        - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
+    - /home/<your username>/dbt:/usr/local/airflow/dbt:ro  
    ```
 your can user the following command to know the username on linux:
 ```
