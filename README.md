@@ -85,3 +85,5 @@ You can view the dashboard [here](https://lookerstudio.google.com/reporting/3ebc
 
 ## _Contributing & Support_
 To be a part of this project's growth, whether by reporting issues, submitting pull requests, or contributing in any way, reach out to me through this platform.
+
+## [LinkedIn Profile:](https://www.linkedin.com/in/josedanielpp/)
