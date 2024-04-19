@@ -80,7 +80,7 @@ Go to the setup readme [here](/setup/README.md).
 
 
 ## Dashboard
-You can view the dashboard [here](https://lookerstudio.google.com/reporting/2ccdf5bd-655e-4f15-9229-0dc7f072f6cb).
+You can view the dashboard [here](https://lookerstudio.google.com/reporting/3ebc5e6e-5560-4cf6-98da-87e67b9a324a).
 
 ## _Contributing & Support_
 To be a part of this project's growth, whether by reporting issues, submitting pull requests, or contributing in any way, reach out to me through this platform.
