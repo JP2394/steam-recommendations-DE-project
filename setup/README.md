@@ -40,13 +40,9 @@ Also make sure that these APIs are activated:
 * https://console.cloud.google.com/apis/library/iam.googleapis.com
 * https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com
 
-## 4 - GCP authentication
-Perform de authentication:  
-`gcloud auth activate-service-account --key-file $GOOGLE_APPLICATION_CREDENTIALS`  
 
 
-
-## 5 - Clone repo in vm instance.
+## 4 - Clone repo in vm instance.
    ```
      git clone https://github.com/JP2394/steam-recommendations-DE-project.git
    ```
@@ -64,8 +60,11 @@ cd into `setup` to execute the setup_vm.sh script:
  ```
  ./setup_vm.sh
  ```
+## 6 - GCP authentication
+Perform de authentication:  
+`gcloud auth activate-service-account --key-file $GOOGLE_APPLICATION_CREDENTIALS`  
 
-## 6 - Deploy resources with terraform
+## 7 - Deploy resources with terraform
 cd into `terraform` to create the resources on the cloud (bucket, bigquery dataset):
 
 * **Initialize terraform**:
@@ -80,7 +79,7 @@ cd into `terraform` to create the resources on the cloud (bucket, bigquery datas
     terraform apply <your-project-id>
     ```
 
-## 7 - Generate kaggle api token 
+## 8 - Generate kaggle api token 
 Go to kaggle page:
 * https://www.kaggle.com/settings
 * On the api section generate a token to use it on the .env file inside the airflow-dev
@@ -90,7 +89,7 @@ Go to kaggle page:
      KAGGLE_KEY= <key of the token>
    ```
 
-## 8 - Initialize (Astronomer) apache airflow
+## 9 - Initialize (Astronomer) apache airflow
 ```
      cd airflow-dev
    ```
