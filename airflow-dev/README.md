@@ -9,7 +9,7 @@ The master DAG assumes the pivotal role of triggering all subsequent DAGs, refle
 
 **2_kaggle_to_gcs:**
 This DAG ingest the datasets from kaggle to the bucket 
-At the end of this process we should have 3 csv files (raw folder)
+* At the end of this process we should have 3 csv files (raw folder)
 ![airflow kaggle_to_gcs](../assets/airflow/2_kaggle_to_gcs.png)
 
 **3_pyspark_submit_process:**
