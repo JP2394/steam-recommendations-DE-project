@@ -4,7 +4,7 @@ Apache Airflow streamlines workflow orchestration with scalable DAGs, ensuring e
 ## Definition of each dag of the project 
 
 **1_dag_master:**
-* The master DAG assumes the pivotal role of triggering all subsequent DAGs, reflecting our commitment as data engineers to automate manual processes across various stages of the data project lifecycle. The creation of this master DAG underscores our strategic approach to orchestrate seamless automation, ensuring efficiency and reliability throughout our data engineering workflows.
+The master DAG assumes the pivotal role of triggering all subsequent DAGs, reflecting our commitment as data engineers to automate manual processes across various stages of the data project lifecycle. The creation of this master DAG underscores our strategic approach to orchestrate seamless automation, ensuring efficiency and reliability throughout our data engineering workflows.
 ![airflow master](../assets/airflow/1_dag_master.png)
 
 **2_kaggle_to_gcs:**
@@ -14,7 +14,7 @@ Apache Airflow streamlines workflow orchestration with scalable DAGs, ensuring e
 
 **3_pyspark_submit_process:**
 * This dag is responsible of ingest the pyspark_transform.py to the bucket script folder
-* Create a Dataproc cluster to process large volumes of data 
+* Create a Dataproc cluster to process the data
 * submit the job on the cluster running the pyspark script from (dtc_data_lake_steam/script) 
 * Delete the cluster after the pyspark tranformation is done (dtc_data_lake_steam/processed)
 ![airflow pyspark_submit_process](../assets/airflow/3_pyspark_submit_process.png)
