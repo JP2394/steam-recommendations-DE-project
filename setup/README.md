@@ -72,11 +72,11 @@ cd into `terraform` to create the resources on the cloud (bucket, bigquery datas
 	 terraform init
 * **Check that you're creating the correct resources (GCS bucket and BigQuery dataset)**:
     ```sh
-    terraform plan
+    terraform plan <project-id>
     ```
 * **Create the resources**:
     ```sh
-    terraform apply <your-project-id>
+    terraform apply <project-id>
     ```
 
 ## 8 - Generate kaggle api token 
