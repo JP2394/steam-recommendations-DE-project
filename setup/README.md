@@ -94,9 +94,9 @@ Go to kaggle page:
 ```
      cd airflow-dev
    ```
-rename the astro folder inside the airflow-dev folder to:
+rename the astro folder inside the airflow-dev folder to .astro:
 ```
-      rm astro .astro
+      mv astro .astro
    ```
 
 ```
